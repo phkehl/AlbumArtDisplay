@@ -1,0 +1,2 @@
+https://riot-os.org/api/group__boards__esp32__mh-et-live-minikit.html
+https://www.bastelgarage.ch/esp32minikit-wemos

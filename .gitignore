@@ -1,0 +1,12 @@
+build
+build-*
+.vscode/bookmarks.json
+src/secrets.h
+src/config.h
+.vstags
+cscope.*
+.#*
+*~
+.history
+.vscode/arduino.json
+

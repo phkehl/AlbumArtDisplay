@@ -1,0 +1,21 @@
+// time [s] to wait before reconnecting
+#define CONFIG_RECONNECT_DELAY 10
+
+// time [s] to wait before reconnecting after immediate failure
+#define CONFIG_RECONNECT_DELAY_SLOW 300
+
+// time [s] after which to consider the connection stable
+#define CONFIG_STABLE_CONN_THRS 300
+
+// software version
+#define CONFIG_SOFTWARE_VERSION "1.0"
+
+//! platform name
+#if defined(ESP8266)
+#  define CONFIG_PLATFORM_NAME "ESP8266"
+#elif defined(ESP32)
+#  define CONFIG_PLATFORM_NAME "ESP32"
+#else
+#  define CONFIG_PLATFORM_NAME "other"
+#endif
+
